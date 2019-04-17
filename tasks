@@ -1,0 +1,20 @@
+04/17/2019:
+1. How do computers send & receive information
+2. what is high level, mid level and low level code 
+3. Domain, IP and DNS
+4. What is front end, back end and stacks
+5. HTML basics
+    https://html.com/cheat-sheet/
+6. CSS
+    https://www.creativebloq.com/web-design/examples-css-912710
+ 7. JavaScript
+    http://jsforcats.com/
+    
+ Try to answer and learn above topics 
+    1,2,3,4 try to prepare notes on your understanding
+    5,6,7 go through tutorials on w3 schools
+ 
+ Assignment
+ 1. Create a simple HTML page using CSS and JavaScript where user can enter username and password to login
+ 2. Store username and password in Javascript variables and once verified navigate user to success page
+ 
