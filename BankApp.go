@@ -5,24 +5,24 @@ import (
 )
 
 type Account struct {
-	Id      int
+	Name    string
 	Balance int
 }
 
-var m map[string]Account
+var m map[int]Account
 
 func main() {
-	m = make(map[string]Account)
+	m = make(map[int]Account)
 	var Name string
-	var x, y, z int
+	var x, Id, Bal int
 	fmt.Println("Create Default data for activating few functionalities of the program.")
 	fmt.Println("Enter Name of your default account:")
 	fmt.Scanln(&Name)
 	fmt.Println("Enter Id of your default account(only intergers):")
-	fmt.Scanln(&y)
+	fmt.Scanln(&Id)
 	fmt.Println("Enter Balance of your default account:")
-	fmt.Scanln(&z)
-	m[Name] = Account{y, z}
+	fmt.Scanln(&Bal)
+	m[Id] = Account{Name, Bal}
 Loop:
 	for {
 		fmt.Printf("\n1.Register/Create New Account\n2.View Account\n3.Modify Existing Account\n4.Transfer Balance\n5.Exit\n")

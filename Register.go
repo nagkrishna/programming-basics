@@ -4,12 +4,12 @@ import "fmt"
 
 func Register() {
 	var Name string
-	var x, y int
+	var Id, Bal int
 	fmt.Println("Enter the Name of the new account:")
 	fmt.Scanln(&Name)
 	fmt.Println("Enter Id of the new account:")
-	fmt.Scanln(&x)
+	fmt.Scanln(&Id)
 	fmt.Println("Enter Balance of the new account:")
-	fmt.Scanln(&y)
-	m[Name] = Account{x, y}
+	fmt.Scanln(&Bal)
+	m[Id] = Account{Name, Bal}
 }
